@@ -1,0 +1,35 @@
+{
+    "name": "Open in IDX for Navigation SDK for Android Samples",
+    "description": "This template allows opening Navigation SDK Android tutorials in IDX IDE",
+    "categories": ["Mobile"],
+    "icon": "https://developers.google.com/static/maps/images/maps-icon.svg",
+    "publisher": "Google LLC",
+    "params": [
+      {
+        "id": "apikey",
+        "name": "API KEY",
+        "type": "text"
+      },
+      {
+        "id": "giturl",
+        "name": "Git Url",
+        "type": "text",
+        "default": "https://github.com/domingoshawn/android-navigation-samples"
+      },
+      {
+        "id": "subdir",
+        "name": "Project Subfolder",
+        "type": "text",
+        "default": "navigation-sample"
+      },
+      {
+        "id": "launchactivity",
+        "name": "Android Activity to launch",
+        "type": "text",
+        "default": "com.example.navigationapidemo/.MainActivity"
+      }
+    ],
+    "host": {
+      "virtualization": "true"
+   }
+  }  
